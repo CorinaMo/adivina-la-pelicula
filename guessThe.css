@@ -1,0 +1,62 @@
+*{
+    text-align: center;
+}
+body{
+    width: 100%;
+    background-image: url('fondo.png');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: 5vw;   
+}
+
+.principal{
+    display: inherit;
+    background-color: transparent;
+    width: 50%;
+    max-height: 60%;
+    margin-right: 75%;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 90%;    
+}
+#errores{
+    margin: 0;
+    background-color: red;
+    border: 2 solid red;
+}
+
+#ganadas{
+    background-color: green;
+    border: 2 solid green;
+}
+#pista{
+    font-family: 'Amatic SC';
+    font-size: 1.5vw;
+
+}
+#peli{
+    font-family: 'Shadows Into Light';
+    font-size: 3.5vw;
+}
+h1{
+    font-size: 3.5vw;
+}
+#errores, #ganadas{
+    font-family: 'Amatic SC';
+    font-size: 3vw;
+    border-radius: 1.5vw;
+    color: white;
+}
+#quotes{
+    font-size: 3.5vw;
+}
+#check{
+    color: green;
+    font-size: 2.7vw;   
+}
+#check2{
+    color: red;
+    font-size: 3vw;
+}
