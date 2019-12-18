@@ -18,7 +18,6 @@ function startGame(){
     frase = elementoLista.frase.valueOf();
     pelicula = elementoLista.pelicula.valueOf();
 
-    console.log('frase: ', frase, ' pelicula: ', pelicula);     ////////////
     pista.innerHTML = `<h2><b> ${frase} </b></h2> <br/>`;
     let peliArray = (pelicula.split(" "));
 
