@@ -1,14 +1,13 @@
-*{
-    text-align: center;
-}
+
 body{
     width: 100%;
-    background-image: url('fondo.png');
+    background-image: url('fondo.jpg');
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow: scroll;
     margin-top: 5vw;   
+    text-align: center;
 }
 
 .principal{
@@ -18,8 +17,7 @@ body{
     max-height: 60%;
     margin-right: 75%;
     margin-left: 25%;
-    margin-top: 10%;
-    margin-bottom: 90%;    
+    margin-top: 6.5%;
 }
 #errores{
     margin: 0;
@@ -45,7 +43,7 @@ h1{
 }
 #errores, #ganadas{
     font-family: 'Amatic SC';
-    font-size: 3vw;
+    font-size: 2.6vw;
     border-radius: 1.5vw;
     color: white;
 }
@@ -59,4 +57,49 @@ h1{
 #check2{
     color: red;
     font-size: 3vw;
+}
+.teclado{
+    display: block;
+    clear: both;
+}
+
+.tecla{
+    display: inline-block;
+    font-family: 'Shadows Into Light';
+    color: black;
+    font-size: xx-large;
+    width: 7%;
+    border-radius: 1.6vw;
+    font-weight: 600;
+    background-color: transparent;
+}
+.tecla:hover{
+    color: white;
+    background-color: black;
+}
+
+#cajaTeclado{
+    margin-top: 1%;
+    display: none;
+}
+#mostrarTeclado{
+    float: left;
+    border: none;
+    background-color: transparent;
+}
+#boardIcon{
+    margin-top: 4%;
+    background-color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 2vw;
+    height: 3vw;
+    font-size: 3.5vw;
+    font-weight: 500;    
+    border: 0;
+}
+
+
+#boardIcon:hover{
+    color: greenyellow;
+    background-color: black;
 }

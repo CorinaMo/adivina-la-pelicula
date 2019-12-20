@@ -9,6 +9,16 @@ let partidasGanadas = 0;
 let readErrors = document.getElementById('errores');
 let readWins = document.getElementById('ganadas');
 let playSound = document.getElementById('keySound');
+let tecla = document.getElementsByClassName('tecla');
+let teclaOn = "";
+
+//TECLADO DEL JUEGO ON/OFF  &  CAPTURAR VALOR TECLA
+function onOff(){    
+    let teclado = document.getElementById('cajaTeclado');
+    teclado.style.display = (teclado.style.display === 'none') ? 'block' : 'none'; 
+}
+
+//COMIENZA EL JUEGO
 startGame();
 
 //ESCOGE FRASE + PELI/SERIE, ENCRIPTA Y DEVUELVE
@@ -18,7 +28,6 @@ function startGame(){
     frase = elementoLista.frase.valueOf();
     pelicula = elementoLista.pelicula.valueOf();
 
-    console.log('frase: ', frase, ' pelicula: ', pelicula);     ////////////
     pista.innerHTML = `<h2><b> ${frase} </b></h2> <br/>`;
     let peliArray = (pelicula.split(" "));
 
@@ -33,20 +42,23 @@ function startGame(){
 function keyUse(e){
     let letraKey = (`${e.key}`).toUpperCase();
     playSound.play();
+    reemplazar(letraKey);
+}
+function reemplazar(n){
     let newLine = "";
-    let letter = line.split("");
-    
+    let letter = line.split("");    
+
     // REEMPLAZO DE "-" POR LETRA ORIGINAL SI EXISTE, SI NO EXISTE SUMARÁ 1 ERROR.
-    for(let i = 0; i < pelicula.length; i++){
-        if(pelicula[i] == letraKey){
-            newLine += letraKey;
+    for(let i = 0; i < pelicula.length; i++){          
+        if(pelicula[i]=== n){
+            newLine += n;
         }else{
             newLine += letter[i];
         }
         line = newLine;
         peli.innerHTML = `<b> ${line} </b>`;       
     }   
-    if(pelicula.indexOf(letraKey) === -1){
+    if(pelicula.indexOf(n) === -1){
         errores += 1;
         readErrors.innerHTML = `<b>Errores: ${errores} </b>`
         if(errores === 8){
@@ -54,8 +66,8 @@ function keyUse(e){
             location.reload();
         }
     }
-    setTimeout(go, 1000);
-    function go(){checkWin(line)};
+    setTimeout(go, 800);
+    function go(){ checkWin(line) };
 }
 
 // CHECK SI SE HA COMPLETADO LA FRASE
@@ -70,6 +82,7 @@ function checkWin(l){
         startGame();
     }else{}    
 }
- 
-//LISTENERS
+
+//LISTENER
 window.addEventListener('keydown', keyUse);
+
