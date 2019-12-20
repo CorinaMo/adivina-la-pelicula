@@ -46,6 +46,8 @@ h1{
     font-size: 2.6vw;
     border-radius: 1.5vw;
     color: white;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
 }
 #quotes{
     font-size: 3.5vw;
@@ -83,24 +85,32 @@ h1{
     display: none;
 }
 #mostrarTeclado{
+    margin-top: 2%;
+    margin-bottom: 2%;
     float: left;
     border: none;
     background-color: transparent;
 }
 #boardIcon{
-    margin-top: 4%;
     background-color: greenyellow;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 2vw;
     height: 3vw;
     font-size: 4vw;
-    padding: 0.5vw;
+    padding: 0.7vw;
     font-weight: 500;    
     border: 0.5vw;
+    border-right: 0.2vw outset black;
+    border-bottom: 0.2vw outset black;
+
 }
-
-
 #boardIcon:hover{
     color: greenyellow;
     background-color: black;
+}
+#leyendaKeyboard{
+    margin-top: 4%;
+    font-weight: 600;
+    font-size: x-large;
+    font-family: 'Shadows Into Light';
 }

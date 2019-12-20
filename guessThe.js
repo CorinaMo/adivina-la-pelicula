@@ -17,6 +17,27 @@ function onOff(){
     let teclado = document.getElementById('cajaTeclado');
     teclado.style.display = (teclado.style.display === 'none') ? 'block' : 'none'; 
 }
+//JQUERY PARA MANEJAR EL TECLADO DEL JUEGO HTML, SÚPER SENCILLO
+$(function(){
+
+    let teccc = [];
+
+    //CADA TECLA DEL DOM AL ARRAY TECCC
+    for( tec of $('.tecla')){
+        teccc.push(tec)     
+    }    
+
+    //POR CADA TECLA ALMACENADA EN TECCC, CUANDO SE HAGA CLIC, 
+    //DEVUELVE EL VALOR DE LA TECLA A LA FUNCIÓN REEMPLAZAR (DE GuessThe.js)   
+    for( t of teccc){
+        let i = teccc.indexOf(t);
+        $(teccc[i]).click(function(){
+            playSound.play();
+            let laTecla = `${teccc[i].value}`;
+            reemplazar(laTecla);
+        })
+    }    
+})    
 
 //COMIENZA EL JUEGO
 startGame();
