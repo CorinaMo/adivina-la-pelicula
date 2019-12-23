@@ -20,10 +20,6 @@ function onOff(){
 }
 //JQUERY PARA MANEJAR EL TECLADO DEL JUEGO HTML, SÚPER SENCILLO
 $(function(){
-<<<<<<< HEAD
-
-=======
->>>>>>> dda8452bec566e70b873eb45a905a9010eb883d1
     let teccc = [];
 
     //CADA TECLA DEL DOM AL ARRAY TECCC
@@ -32,11 +28,7 @@ $(function(){
     }    
 
     //POR CADA TECLA ALMACENADA EN TECCC, CUANDO SE HAGA CLIC, 
-<<<<<<< HEAD
-    //DEVUELVE EL VALOR DE LA TECLA A LA FUNCIÓN REEMPLAZAR  
-=======
     //DEVUELVE EL VALOR DE LA TECLA A LA FUNCIÓN REEMPLAZAR   
->>>>>>> dda8452bec566e70b873eb45a905a9010eb883d1
     for( t of teccc){
         let i = teccc.indexOf(t);
         $(teccc[i]).click(function(){
