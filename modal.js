@@ -14,7 +14,7 @@ const gif4 = `<img src="win4.gif" width="95%" />`;
 const gifArray = [gif1, gif2, gif3, gif4];
 
 // SONIDOS
-const sound1 = "goffyGoofy_Holler.mp3";
+const sound1 = "aleluya.mp3";
 
 // AL GANAR ->MODAL CON GIF AL AZAR
 
