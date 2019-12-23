@@ -280,12 +280,12 @@ list = [
         pelicula:"MATRIX"
     },
     {
-        frase:"Pijus Magníficus",
+        frase:"¿Te 'paguece guisible' el nombre de Pijus Magníficus?",
         pelicula:"LA VIDA DE BRIAN"
     },
     {
         frase:"Que la fuerza te acompañe",
-        pelicula:"STAR WARS"
+        pelicula:"LA GUERRA DE LAS GALAXIAS"
     },
     {
         frase:"Esto va a ser LEGEN... espera... ¡DARIO!",
@@ -293,7 +293,191 @@ list = [
     },
     {
         frase:"Tu falta de fe me resulta molesta",
-        pelicula:"STAR WARS"
+        pelicula:"LA GUERRA DE LAS GALAXIAS"
+    },
+    {
+        frase:"No soy un psicópata, Anderson. Soy un sociópata altamente funcional. Haz tu investigación.",
+        pelicula:"SHERLOCK"
+    },
+    {
+        frase:"¡Cuatro suicidios en serie y ahora una nota! ¡Es Navidad!",
+        pelicula:"SHERLOCK"
+    },
+    {
+        frase:"No estoy loco, mi madre me hizo pruebas",
+        pelicula:"THE BIG BANG THEORY"
+    },
+    {
+        frase:"Puedes cambiar lo que haces, pero no puedes cambiar lo que quieres.",
+        pelicula:"PEAKY BLINDERS"
+    },
+    {
+        frase:"La única manera de garantizar la paz es hacer que la expectativa de la guerra parezca inevitable.",
+        pelicula:"PEAKY BLINDERS"
+    },
+    {
+        frase:"No pago por trajes. Mis trajes están en la casa o la casa se incendia.",
+        pelicula:"PEAKY BLINDERS"
+    },
+    {
+        frase:"Te voy a decir lo que pienso de las escuelas, Jerry: Es una pérdida de tiempo (…) La escuela no es un lugar para las personas inteligentes.",
+        pelicula:"RICK Y MORTY"
+    },
+    {
+        frase:"El universo es como un animal, se alimenta de lo anodino. Crea infinitos idiotas para luego comérselos.",
+        pelicula:"RICK Y MORTY"
+    },
+    {
+        frase:"No estoy en peligro, Skyler, yo soy el peligro. Si llaman a la puerta de un hombre y le disparan, ¿Piensas que ese seré yo? ¡No! Yo soy el que llama.",
+        pelicula:"BREAKING BAD"
+    },
+    {
+        frase:"Si eso es cierto, si no sabes quién soy, entonces quizás tu mejor opción sería andarte con cuidado.",
+        pelicula:"BREAKING BAD"
+    },
+    {
+        frase:"Todo se trata de aceptar quién eres realmente. Yo acepto quien soy (…) Soy el malo.",
+        pelicula:"BREAKING BAD"
+    },
+    {
+        frase:"La puerta… yo la abrí. Yo soy el monstruo.",
+        pelicula:"STRANGER THINGS"
+    },
+    {
+        frase:"Nuestra amiga tiene super poderes, y te estrujó la vejiga con la mente, así conseguimos que te orinaras encima.",
+        pelicula:"STRANGER THINGS"
+    },
+    {
+        frase:"Estoy en un viaje de curiosidad y necesito mis remos. Estos libros… estos libros son mis remos. ¡Necesito mis remos!",
+        pelicula:"STRANGER THINGS"
+    },
+    {
+        frase:"No sabes nada, Jon Snow...",
+        pelicula:"JUEGO DE TRONOS"
+    },
+    {
+        frase:"Se sentirán muy estúpidos cuando se den cuenta de que se están metiendo con la gente equivocada.",
+        pelicula:"THE WALKING DEAD"
+    },
+    {
+        frase:"Uno debe de ser bien educado con un hombre que porta un arma. Es simple sentido común.",
+        pelicula:"THE WALKING DEAD"
+    },
+    {
+        frase:"Un Lannister siempre paga sus deudas",
+        pelicula:"JUEGO DE TRONOS"
+    },
+    {
+        frase:"La próxima vez que me levantes una mano será la última vez que tengas manos.",
+        pelicula:"JUEGO DE TRONOS"
+    },
+    {
+        frase:"Al menos usted nunca será una hortaliza porque hasta las alcachofas tienen corazón.",
+        pelicula:"AMELIE"
+    },
+    {
+        frase:"Un mago nunca llega tarde, ni pronto: llega exactamente cuando se lo propone",
+        pelicula:"EL SEÑOR DE LOS ANILLOS"
+    },
+    {
+        frase:"Tengo el presentimiento de que ya no estamos en Kansas",
+        pelicula:"EL MAGO DE OZ"
+    },
+    {
+        frase:"Bueno, no estamos en el fin del mundo, pero desde aquí se ve",
+        pelicula:"THELMA Y LOUISE"
+    },
+    {
+        frase:"Ayúdame, Obi-Wan Kenobi… eres mi única esperanza",
+        pelicula:"LA GUERRA DE LAS GALAXIAS"
+    },
+    {
+        frase:"Mi tesssssssoro...",
+        pelicula:"EL SEÑOR DE LOS ANILLOS"
+    },
+    {
+        frase:"Elegí un mal día para dejar de fumar",
+        pelicula:"ATERRIZA COMO PUEDAS"
+    },
+    {
+        frase:"Ya están aquí…",
+        pelicula:"POLTERGEIST"
+    },
+    {
+        frase:"¡Soy el rey del mundo!",
+        pelicula:"TITANIC"
+    },
+    {
+        frase:"¡Hasta el infinito y más allá!",
+        pelicula:"TOY STORY"
+    },
+    {
+        frase:"¡Oh Capitán, mi Capitán!",
+        pelicula:"EL CLUB DE LOS POETAS MUERTOS"
+    },
+    {
+        frase:"Solo puede quedar uno",
+        pelicula:"LOS INMORTALES"
+    },
+    {
+        frase:"Yo no soy mala, es que me han dibujado así",
+        pelicula:"QUIEN ENGAÑO A ROGER RABBIT"
+    },
+    {
+        frase:"Sayonara, baby",
+        pelicula:"TERMINATOR"
+    },
+    {
+        frase:"Tonto es el que hace tonterías",
+        pelicula:"FORREST GUMP"
+    },
+    {
+        frase:"La vida es como una caja de bombones, nunca sabes lo que te va a tocar",
+        pelicula:"FORREST GUMP"
+    },
+    {
+        frase:"Francamente, querida, me importa un bledo",
+        pelicula:"LO QUE EL VIENTO SE LLEVO"
+    },
+    {
+        frase:"Lo más grande que te puede suceder es que ames y seas correspondido.",
+        pelicula:"MOULIN ROUGE"
+    },
+    {
+        frase:"Tengo miedo de salir de esta habitación y no volver a sentir en mi vida lo que siento estando contigo",
+        pelicula:"DIRTY DANCING"
+    },
+    {
+        frase:"P. Sherman, Calle Wallaby 42, Sydney.",
+        pelicula:"BUSCANDO A NEMO"
+    },
+    {
+        frase:"No voy a hacerte daño Wendy, sólo voy a arrancarte tu jodida cabeza.",
+        pelicula:"EL RESPLANDOR"
+    },
+    {
+        frase:"-¿Qué haremos esta noche, Cerebro? / –Lo mismo que hacemos todas las noches, Pinky: ¡tratar de conquistar el mundo!",
+        pelicula:"PINKY Y CEREBRO"
+    },
+    {
+        frase:"La flor que florece en la adversidad es la más rara y hermosa de todas",
+        pelicula:"MULAN"
+    },
+    {
+        frase:"¿Qué es la conciencia? Te lo diré. La conciencia es esa débil voz interior que nadie escucha, por eso el mundo anda tan mal",
+        pelicula:"PINOCHO"
+    },
+    {
+        frase:"Tijeras cortan papel, papel cubre a piedra, piedra aplasta lagarto, lagarto envenena a Spock.",
+        pelicula:"THE BIG BANG THEORY"
+    },
+    {
+        frase:"No, voy a pedirle que elija entre el sexo y Halo 3. Que yo sepa el sexo no ha sido mejorado ni incluye gráficos 3D ni armas de nueva generación.",
+        pelicula:"THE BIG BANG THEORY"
+    },
+    {
+        frase:"Estoy a treinta minutos de allí­, llegaré en 10",
+        pelicula:"PULP FICTION"
     },
 
 
