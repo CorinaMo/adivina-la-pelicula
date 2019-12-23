@@ -2,6 +2,7 @@
 VER EN VIVO: https://corinamo.github.io/adivina-la-pelicula/
 
 *UPDATE 23/12/2019 : Añadido Modal con animación al azar (gifs de Giphy.com) + sonido Goofy cuando ganas una partida.
+                   : Frases (partidas) añadidas.
 
 *UPDATE 20/12/2019 : Añadido teclado opcional.
 
