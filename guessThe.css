@@ -125,7 +125,6 @@ h1{
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: hidden; /* Enable scroll if needed */
-    background-color: rgba(38, 104, 7, 0.493); /* Black w/ opacity */
   }
   
   /* Modal Content */
