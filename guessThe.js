@@ -9,6 +9,7 @@ let partidasGanadas = 0;
 let readErrors = document.getElementById('errores');
 let readWins = document.getElementById('ganadas');
 let playSound = document.getElementById('keySound');
+let playWinSound = document.getElementById('winSound');
 let tecla = document.getElementsByClassName('tecla');
 let teclaOn = "";
 
@@ -19,7 +20,6 @@ function onOff(){
 }
 //JQUERY PARA MANEJAR EL TECLADO DEL JUEGO HTML, SÚPER SENCILLO
 $(function(){
-
     let teccc = [];
 
     //CADA TECLA DEL DOM AL ARRAY TECCC
@@ -87,7 +87,7 @@ function reemplazar(n){
             location.reload();
         }
     }
-    setTimeout(go, 800);
+    setTimeout(go, 700);
     function go(){ checkWin(line) };
 }
 
@@ -95,7 +95,11 @@ function reemplazar(n){
 function checkWin(l){
     
     if(l.indexOf("_") === -1){
-        alert(`¡Has ganado!`);
+        playWinSound.play();
+        youWin();
+        setTimeout(function(){
+            modal.style.display = "none";
+        }, 2000)
         partidasGanadas += 1;
         errores = 0;
         readErrors.innerHTML = `<b>Errores: ${errores} </b>`

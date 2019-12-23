@@ -114,3 +114,28 @@ h1{
     font-size: x-large;
     font-family: 'Shadows Into Light';
 }
+
+/* MODAL */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    vertical-align: middle;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgba(38, 104, 7, 0.493); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: transparent;
+    width: 30%;
+    margin-top: 8vw;
+    margin-bottom: 20vw;
+    margin-left: 35vw;
+    margin-right: 35vw;
+  }
+  
